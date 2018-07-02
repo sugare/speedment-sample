@@ -1,0 +1,113 @@
+{
+  "config" : {
+    "nameProtected" : false,
+    "expanded" : true,
+    "appId" : "27bfc8f0-3344-43cb-9a7b-509e0f3c52e3",
+    "companyName" : "song",
+    "name" : "test",
+    "packageLocation" : "src/main/java/",
+    "id" : "test",
+    "dbmses" : [
+      {
+        "nameProtected" : true,
+        "expanded" : true,
+        "port" : 3306,
+        "schemas" : [
+          {
+            "nameProtected" : true,
+            "tables" : [
+              {
+                "nameProtected" : true,
+                "expanded" : true,
+                "primaryKeyColumns" : [
+                  {
+                    "nameProtected" : false,
+                    "expanded" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  }
+                ],
+                "indexes" : [
+                  {
+                    "nameProtected" : true,
+                    "expanded" : false,
+                    "unique" : true,
+                    "name" : "PRIMARY",
+                    "indexColumns" : [
+                      {
+                        "orderType" : "ASC",
+                        "expanded" : true,
+                        "name" : "id",
+                        "id" : "id",
+                        "ordinalPosition" : 1
+                      }
+                    ],
+                    "id" : "PRIMARY",
+                    "enabled" : true
+                  }
+                ],
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "nameProtected" : true,
+                    "expanded" : true,
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "nullable" : false,
+                    "autoIncrement" : true,
+                    "name" : "id",
+                    "nullableImplementation" : "OPTIONAL",
+                    "id" : "id",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "nameProtected" : true,
+                    "expanded" : true,
+                    "nullable" : false,
+                    "autoIncrement" : false,
+                    "name" : "name",
+                    "nullableImplementation" : "OPTIONAL",
+                    "id" : "name",
+                    "ordinalPosition" : 2,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "nameProtected" : true,
+                    "expanded" : true,
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "nullable" : false,
+                    "autoIncrement" : false,
+                    "name" : "age",
+                    "nullableImplementation" : "OPTIONAL",
+                    "id" : "age",
+                    "ordinalPosition" : 3,
+                    "enabled" : true
+                  }
+                ],
+                "name" : "user",
+                "id" : "user",
+                "enabled" : true
+              }
+            ],
+            "expanded" : true,
+            "name" : "test",
+            "id" : "test",
+            "enabled" : true
+          }
+        ],
+        "typeName" : "MySQL",
+        "ipAddress" : "127.0.0.1",
+        "name" : "test",
+        "id" : "test",
+        "enabled" : true,
+        "username" : "root"
+      }
+    ],
+    "enabled" : true
+  }
+}
